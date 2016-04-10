@@ -1,0 +1,83 @@
+/*/@media screen and (min-width: 480px)
+{
+	body{
+		background: navy;
+	}
+	#wrapper{
+		background: darkgreen;	
+	}
+}
+
+@media screen and (min-width: 660px)
+{
+	body{
+		background: darkgreen;
+	}
+	#wrapper{
+		background: navy;	
+	}
+}
+
+*/
+@media screen and (min-width: 480px)
+{
+	#primary{
+		width: 50%;
+		float: left;
+	}
+	#secondary{
+		width: 40%;
+		float: right;
+	}
+	#galeria li {
+		width: 28.33333%;
+	}
+
+	#galeria li:nth-child(3n+1){
+		clear: left;
+	}
+
+	.profile-photo{
+		float: left;
+		margin: 0 5% 120% 0;
+	}
+}
+
+@media screen and (min-width: 660px)
+{
+	header{
+		border-bottom: 5px solid #553100;
+		margin-bottom: 60px;
+	}
+	 
+	#logo{
+		float: left;
+		margin-left: 4.5%;
+		text-align: left;
+		width: 45%;
+	}
+
+	h1{
+		font-size: 1.5em;
+	}
+
+	h2{
+		font-size: 0.825em;
+		margin-bottom: 20px;
+	}
+
+	nav{
+		background: none;
+		float: right;
+		font-size: 1.125em;
+		margin-right: 4.5%;
+		text-align: right;
+		width: 45%;
+	}
+
+	nav a.selected{
+	color: #ffdbaa;
+	background: #553100;
+}
+
+}

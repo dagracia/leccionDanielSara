@@ -1,0 +1,32 @@
+/************************
+GENERAL
+************************/
+
+
+body{
+	background: #805215;
+	max-width:100%;
+}
+
+h1{
+	font-family: 'Candal', sans-serif;
+	text-align: center;
+	margin: 25px 0;
+	font-size: 2em;
+	font-weight: 700;
+	line-height: 1.2em;
+	color: #ffdbaa;
+}
+
+/************************
+HEADING
+************************/
+header{
+	
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+	background: #aa7939;
+	border-color: #553100;
+}
+
