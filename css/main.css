@@ -30,3 +30,16 @@ header{
 	border-color: #553100;
 }
 
+
+
+/************************
+DIV
+*******************/
+div{
+	font-family: 'Candal', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1em;
+	color: #ffdbaa;
+	list-style: none;
+}
